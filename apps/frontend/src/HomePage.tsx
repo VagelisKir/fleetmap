@@ -16,16 +16,16 @@ const HomePage: React.FC = () => {
         <></>
       </main>
     </SidebarProvider>
-   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
-      {containerShips.map((ship) => (
-        <Card key={ship.name} ship={ship} />
-      ))}
-    </div>
      <div className="p-4">
-      <MapComponent />
+      {/* <MapComponent /> */}
     </div>
     </>
   )
 }
+{/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
+   {containerShips.map((ship) => (
+     <Card key={ship.name} ship={ship} />
+   ))}
+ </div> */}
 
 export default HomePage;

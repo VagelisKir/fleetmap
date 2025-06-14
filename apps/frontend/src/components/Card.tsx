@@ -6,15 +6,15 @@ interface Props {
 
 export default function ShipCard({ ship }: Props) {
   return (
-    <div className="w-full max-w-xs bg-white rounded-lg shadow-sm text-sm">
-      <figure className="h-32 overflow-hidden">
+    <div className="w-full bg-white rounded-lg shadow-sm text-sm p-4 items-start">
+      <figure className="h-32 flex-shrink-0 overflow-hidden rounded-md">
         <img
           src={ship.photo.url}
           alt={ship.name}
           className="w-full h-full object-cover"
         />
       </figure>
-      <div className="p-4">
+      <div className="flex-1">
         <h2 className="text-base font-semibold mb-2 flex items-center gap-2">
           {ship.name}
           <svg
