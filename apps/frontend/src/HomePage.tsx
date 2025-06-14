@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
       <div className="flex h-screen">
         <AppSidebar />
 
-        <div className="flex-1 h-screen">
+        <div className="flex-1 w-screen h-screen">
           <SidebarTrigger />
           <MapComponent />
         </div>

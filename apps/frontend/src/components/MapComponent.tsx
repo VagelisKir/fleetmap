@@ -27,7 +27,7 @@ export default function ShipMap() {
         zoom={2}
         scrollWheelZoom={true}
         minZoom={2}
-        maxZoom={5}
+        maxZoom={20}
         worldCopyJump={false}
         maxBounds={[
           [-85, -180],
