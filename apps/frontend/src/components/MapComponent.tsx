@@ -21,31 +21,34 @@ L.Marker.prototype.options.icon = defaultIcon;
 
 export default function ShipMap() {
   return (
-    <MapContainer
-   center={[20, 0]}
-  zoom={2}              
-  minZoom={2}             
-  maxZoom={5}            
-  scrollWheelZoom={true}  
-  className="h-[500px] w-full rounded-lg"
-    maxBounds={[
-    [-85, -180],
-    [85, 180]
-  ]}
-  maxBoundsViscosity={1.0}
-  worldCopyJump={false}
-    >
-      <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-     />
-      {containerShips.map((ship, index) => (
-        <Marker key={index} position={[ship.latitude, ship.longitude] as [number, number]}>
-          <Popup>
-            <strong>{ship.name}</strong><br />
-            TEU: {ship.teu}
-          </Popup>
-        </Marker>
-      ))}
-    </MapContainer>
+    <div className="w-full h-full"> 
+      <MapContainer
+        center={[20, 0]}
+        zoom={2}
+        scrollWheelZoom={true}
+        minZoom={2}
+        maxZoom={5}
+        worldCopyJump={false}
+        maxBounds={[
+          [-85, -180],
+          [85, 180]
+        ]}
+        maxBoundsViscosity={1.0}
+        className="h-full w-full"
+      >
+        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+        {containerShips.map((ship, index) => (
+          <Marker
+            key={index}
+            position={[ship.latitude, ship.longitude] as [number, number]}
+          >
+            <Popup>
+              <strong>{ship.name}</strong><br />
+              TEU: {ship.teu}
+            </Popup>
+          </Marker>
+        ))}
+      </MapContainer>
+    </div>
   );
 }

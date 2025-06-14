@@ -33,13 +33,13 @@ export function AppSidebar() {
             </div>
             <div className="flex items-center space-x-2">
               <RadioGroupItem value="port" id="port" />
-              <Label htmlFor="port">Search by Port</Label>
+              <Label className="py-2" htmlFor="port">Search by Port</Label>
             </div>
           </RadioGroup>
-          <div className="">{searchType === "teu" ? (
+          <div className="py-2">{searchType === "teu" ? (
             <>   
-             <Input placeholder="Min Teu"/> 
-             <Input placeholder="Max Teu"/>
+             <Input placeholder="Min Teu" type="number" min={0}/>  
+             <Input placeholder="Max Teu" type="number" min={0} max={24000}/>
 
             </>
           ) : <Input placeholder="Enter port name"/>}</div>
