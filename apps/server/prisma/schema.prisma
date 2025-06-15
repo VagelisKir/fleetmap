@@ -6,10 +6,27 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../node_modules/generated/prisma"
 }
 
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
+}
+
+model Port {
+  id               Int    @id @default(autoincrement())
+  name             String
+  country          String
+  lastVisitedShips Ship[]
+}
+
+model Ship {
+  id        Int      @id @default(autoincrement())
+  name      String
+  imo       Int
+  visitedAt DateTime
+  teu       Int
+  loa_m     Float
+  portId    Int
+  port      Port     @relation(fields: [portId], references: [id])
 }
