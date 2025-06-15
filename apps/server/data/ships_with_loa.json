@@ -1,0 +1,1318 @@
+[
+  {
+    "name": "Maersk Hanoi",
+    "min_teu": 6832,
+    "year_built": 1991,
+    "shipyard": "Samsung",
+    "last_ports": [
+      "Shenzhen",
+      "New York",
+      "Busan",
+      "Singapore",
+      "Tanjung Pelepas",
+      "Piraeus",
+      "Valencia",
+      "Jebel Ali",
+      "Shanghai",
+      "Los Angeles"
+    ],
+    "photo_url": "/dataImg/MaerskHanoi.png",
+    "draft_m": 10.63,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.509898Z",
+      "lat": 59.393779,
+      "lon": -79.676066
+    },
+    "loa_m": 294.0
+  },
+  {
+    "name": "MSC Mirjam",
+    "min_teu": 13449,
+    "year_built": 2009,
+    "shipyard": "CSBC",
+    "last_ports": [
+      "Singapore",
+      "Antwerp",
+      "Valencia",
+      "Dubai",
+      "Los Angeles",
+      "Hamburg",
+      "Shenzhen",
+      "Gioia Tauro",
+      "Tanjung Pelepas",
+      "Jebel Ali"
+    ],
+    "photo_url": "/dataImg/MCSMirjam.png",
+    "draft_m": 9.52,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.508051Z",
+      "lat": 75.596538,
+      "lon": -132.583041
+    },
+    "loa_m": 335.0
+  },
+  {
+    "name": "HMM Oslo",
+    "min_teu": 20363,
+    "year_built": 2013,
+    "shipyard": "Samsung",
+    "last_ports": [
+      "New York",
+      "Gioia Tauro",
+      "Rotterdam",
+      "Busan",
+      "Singapore",
+      "Jebel Ali",
+      "Port Klang",
+      "Dubai",
+      "Hamburg",
+      "Felixstowe"
+    ],
+    "photo_url": "/dataImg/HMMOslo.png",
+    "draft_m": 9.17,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.513457Z",
+      "lat": -66.720012,
+      "lon": 132.253897
+    },
+    "loa_m": 399.9
+  },
+  {
+    "name": "Ever Glory",
+    "min_teu": 18273,
+    "year_built": 2012,
+    "shipyard": "CSBC",
+    "last_ports": [
+      "Rotterdam",
+      "Felixstowe",
+      "Shenzhen",
+      "New York",
+      "Shanghai",
+      "Singapore",
+      "Piraeus",
+      "Long Beach",
+      "Hamburg",
+      "Dubai"
+    ],
+    "photo_url": "/dataImg/EverGlory.png",
+    "draft_m": 13.77,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.512934Z",
+      "lat": 72.320326,
+      "lon": -128.932147
+    },
+    "loa_m": 366.0
+  },
+  {
+    "name": "MOL Triumph",
+    "min_teu": 20204,
+    "year_built": 2000,
+    "shipyard": "GGGI",
+    "last_ports": [
+      "Singapore",
+      "Jebel Ali",
+      "Gioia Tauro",
+      "Los Angeles",
+      "Shenzhen",
+      "Shanghai",
+      "Long Beach",
+      "Valencia",
+      "Busan",
+      "Rotterdam"
+    ],
+    "photo_url": "/dataImg/MOLTriumph.png",
+    "draft_m": 14.13,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.512679Z",
+      "lat": 61.715817,
+      "lon": -161.084872
+    },
+    "loa_m": 399.9
+  },
+  {
+    "name": "Al Dahna",
+    "min_teu": 15499,
+    "year_built": 2025,
+    "shipyard": "Daewoo",
+    "last_ports": [
+      "Tanjung Pelepas",
+      "Rotterdam",
+      "Los Angeles",
+      "Singapore",
+      "Dubai",
+      "Valencia",
+      "Hamburg",
+      "Shenzhen",
+      "Gioia Tauro",
+      "Antwerp"
+    ],
+    "photo_url": "/dataImg/AlDahna.png",
+    "draft_m": 12.62,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.510812Z",
+      "lat": 41.482123,
+      "lon": -171.781349
+    },
+    "loa_m": 366.0
+  },
+  {
+    "name": "MSC Trieste",
+    "min_teu": 19578,
+    "year_built": 1997,
+    "shipyard": "Mitsubishi",
+    "last_ports": [
+      "Felixstowe",
+      "Jebel Ali",
+      "Los Angeles",
+      "Antwerp",
+      "Busan",
+      "Valencia",
+      "New York",
+      "Singapore",
+      "Hamburg",
+      "Shanghai"
+    ],
+    "photo_url": "/dataImg/MSCTrieste.png",
+    "draft_m": 14.27,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.509598Z",
+      "lat": 31.736236,
+      "lon": 67.247449
+    },
+    "loa_m": 366.0
+  },
+  {
+    "name": "MSC Isabella",
+    "min_teu": 19894,
+    "year_built": 1995,
+    "shipyard": "Daewoo",
+    "last_ports": [
+      "Shanghai",
+      "Dubai",
+      "Gioia Tauro",
+      "Los Angeles",
+      "Antwerp",
+      "Jebel Ali",
+      "Busan",
+      "Piraeus",
+      "New York",
+      "Hamburg"
+    ],
+    "photo_url": "/dataImg/MSCIsabella.png",
+    "draft_m": 15.26,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.521383Z",
+      "lat": -12.319087,
+      "lon": 91.554608
+    },
+    "loa_m": 366.0
+  },
+  {
+    "name": "CSCL Globe",
+    "min_teu": 16702,
+    "year_built": 2021,
+    "shipyard": "Samsung",
+    "last_ports": [
+      "Jebel Ali",
+      "Piraeus",
+      "New York",
+      "Tanjung Pelepas",
+      "Shenzhen",
+      "Dubai",
+      "Hamburg",
+      "Los Angeles",
+      "Antwerp",
+      "Felixstowe"
+    ],
+    "photo_url": "/dataImg/CSCLGlobe.png",
+    "draft_m": 10.39,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.509292Z",
+      "lat": 10.558847,
+      "lon": -119.147253
+    },
+    "loa_m": 366.0
+  },
+  {
+    "name": "OOCL Japan",
+    "min_teu": 8326,
+    "year_built": 1994,
+    "shipyard": "Mitsubishi",
+    "last_ports": [
+      "Rotterdam",
+      "Singapore",
+      "New York",
+      "Port Klang",
+      "Busan",
+      "Valencia",
+      "Antwerp",
+      "Gioia Tauro",
+      "Hamburg",
+      "Jebel Ali"
+    ],
+    "photo_url": "/dataImg/OOCLJapan.png",
+    "draft_m": 11.48,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.517297Z",
+      "lat": -88.696132,
+      "lon": 132.838202
+    },
+    "loa_m": 294.0
+  },
+  {
+    "name": "Cosco Leo",
+    "min_teu": 1994,
+    "year_built": 1998,
+    "shipyard": "CSBC",
+    "last_ports": [
+      "Dubai",
+      "Shenzhen",
+      "Antwerp",
+      "Rotterdam",
+      "Hamburg",
+      "Piraeus",
+      "Singapore",
+      "Long Beach",
+      "New York",
+      "Jebel Ali"
+    ],
+    "photo_url": "/dataImg/CoscoLeo.png",
+    "draft_m": 9.28,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.508187Z",
+      "lat": 11.925744,
+      "lon": -107.796062
+    },
+    "loa_m": 230.0
+  },
+  {
+    "name": "HMM Copenhagen",
+    "min_teu": 19891,
+    "year_built": 1997,
+    "shipyard": "CSBC",
+    "last_ports": [
+      "Dubai",
+      "Busan",
+      "Valencia",
+      "Piraeus",
+      "Singapore",
+      "Long Beach",
+      "Antwerp",
+      "Shenzhen",
+      "Rotterdam",
+      "New York"
+    ],
+    "photo_url": "/dataImg/HMMCopenhagen.png",
+    "draft_m": 14.43,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.508158Z",
+      "lat": -38.387901,
+      "lon": 76.234216
+    },
+    "loa_m": 366.0
+  },
+  {
+    "name": "CMA CGM Champs Elysees",
+    "min_teu": 23617,
+    "year_built": 2009,
+    "shipyard": "CSBC",
+    "last_ports": [
+      "Felixstowe",
+      "Jebel Ali",
+      "Valencia",
+      "Rotterdam",
+      "Tanjung Pelepas",
+      "Dubai",
+      "Long Beach",
+      "Singapore",
+      "Gioia Tauro",
+      "Busan"
+    ],
+    "photo_url": "/dataImg/CMACGMChampsElysees.png",
+    "draft_m": 10.87,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.509420Z",
+      "lat": 29.592638,
+      "lon": 76.715762
+    },
+    "loa_m": 399.9
+  },
+  {
+    "name": "Ever Ace",
+    "min_teu": 10887,
+    "year_built": 2008,
+    "shipyard": "Fincantieri",
+    "last_ports": [
+      "Los Angeles",
+      "Antwerp",
+      "New York",
+      "Valencia",
+      "Singapore",
+      "Gioia Tauro",
+      "Port Klang",
+      "Rotterdam",
+      "Dubai",
+      "Shenzhen"
+    ],
+    "photo_url": "/dataImg/EverAce.png",
+    "draft_m": 12.52,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.512587Z",
+      "lat": 77.441901,
+      "lon": -166.290642
+    },
+    "loa_m": 335.0
+  },
+  {
+    "name": "CMA CGM Jacques Saade",
+    "min_teu": 10960,
+    "year_built": 2001,
+    "shipyard": "CSBC",
+    "last_ports": [
+      "Felixstowe",
+      "Port Klang",
+      "Hamburg",
+      "Antwerp",
+      "Singapore",
+      "Dubai",
+      "Valencia",
+      "Rotterdam",
+      "Jebel Ali",
+      "Shanghai"
+    ],
+    "photo_url": "/dataImg/CMACGMCJacquesSaade.png",
+    "draft_m": 12.81,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.512817Z",
+      "lat": -12.229387,
+      "lon": 63.853398
+    },
+    "loa_m": 335.0
+  },
+  {
+    "name": "Ever Alp",
+    "min_teu": 20906,
+    "year_built": 2019,
+    "shipyard": "Fincantieri",
+    "last_ports": [
+      "Busan",
+      "Rotterdam",
+      "Long Beach",
+      "Valencia",
+      "Dubai",
+      "Shenzhen",
+      "Gioia Tauro",
+      "Jebel Ali",
+      "Shanghai",
+      "Los Angeles"
+    ],
+    "photo_url": "/dataImg/EverAlp.png",
+    "draft_m": 9.03,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.520008Z",
+      "lat": -78.966767,
+      "lon": 80.302972
+    },
+    "loa_m": 399.9
+  },
+  {
+    "name": "HMM Rotterdam",
+    "min_teu": 17536,
+    "year_built": 2005,
+    "shipyard": "Mitsubishi",
+    "last_ports": [
+      "Felixstowe",
+      "Tanjung Pelepas",
+      "New York",
+      "Port Klang",
+      "Hamburg",
+      "Long Beach",
+      "Gioia Tauro",
+      "Piraeus",
+      "Busan",
+      "Los Angeles"
+    ],
+    "photo_url": "/dataImg/HMMRotterdam.png",
+    "draft_m": 8.25,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.508085Z",
+      "lat": -26.10821,
+      "lon": 155.97241
+    },
+    "loa_m": 366.0
+  },
+  {
+    "name": "Ever Arm",
+    "min_teu": 7122,
+    "year_built": 2024,
+    "shipyard": "Fincantieri",
+    "last_ports": [
+      "Shanghai",
+      "Rotterdam",
+      "Shenzhen",
+      "Singapore",
+      "Dubai",
+      "Long Beach",
+      "Jebel Ali",
+      "Busan",
+      "Port Klang",
+      "Valencia"
+    ],
+    "photo_url": "/dataImg/EverArm.png",
+    "draft_m": 9.05,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.512215Z",
+      "lat": 55.877757,
+      "lon": 127.519469
+    },
+    "loa_m": 294.0
+  },
+  {
+    "name": "Maersk Madrid",
+    "min_teu": 21891,
+    "year_built": 2018,
+    "shipyard": "Samsung",
+    "last_ports": [
+      "Los Angeles",
+      "Felixstowe",
+      "Long Beach",
+      "Valencia",
+      "Dubai",
+      "Tanjung Pelepas",
+      "Gioia Tauro",
+      "Rotterdam",
+      "New York",
+      "Piraeus"
+    ],
+    "photo_url": "/dataImg/MaerskMadrid.png",
+    "draft_m": 8.76,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.521807Z",
+      "lat": -68.405651,
+      "lon": -117.809962
+    },
+    "loa_m": 399.9
+  },
+  {
+    "name": "ONE Cygnus",
+    "min_teu": 9148,
+    "year_built": 2022,
+    "shipyard": "GGGI",
+    "last_ports": [
+      "Valencia",
+      "Antwerp",
+      "Jebel Ali",
+      "Shanghai",
+      "Port Klang",
+      "Hamburg",
+      "Los Angeles",
+      "Piraeus",
+      "Busan",
+      "Tanjung Pelepas"
+    ],
+    "photo_url": "/dataImg/ONECygnus.png",
+    "draft_m": 13.15,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.517219Z",
+      "lat": -73.382135,
+      "lon": 159.672297
+    },
+    "loa_m": 294.0
+  },
+  {
+    "name": "ONE Apus",
+    "min_teu": 22716,
+    "year_built": 1994,
+    "shipyard": "GGGI",
+    "last_ports": [
+      "Shanghai",
+      "Shenzhen",
+      "Port Klang",
+      "Long Beach",
+      "Rotterdam",
+      "Tanjung Pelepas",
+      "Singapore",
+      "Jebel Ali",
+      "Antwerp",
+      "Busan"
+    ],
+    "photo_url": "/dataImg/ONEApus.png",
+    "draft_m": 8.6,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.512623Z",
+      "lat": 5.176689,
+      "lon": 52.810131
+    },
+    "loa_m": 399.9
+  },
+  {
+    "name": "MOL Truth",
+    "min_teu": 2332,
+    "year_built": 1993,
+    "shipyard": "Hyundai",
+    "last_ports": [
+      "Rotterdam",
+      "New York",
+      "Tanjung Pelepas",
+      "Gioia Tauro",
+      "Hamburg",
+      "Shenzhen",
+      "Jebel Ali",
+      "Valencia",
+      "Shanghai",
+      "Los Angeles"
+    ],
+    "photo_url": "/dataImg/MOLTruth.png",
+    "draft_m": 13.03,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.518118Z",
+      "lat": -15.498634,
+      "lon": 96.228779
+    },
+    "loa_m": 230.0
+  },
+  {
+    "name": "YM Wellbeing",
+    "min_teu": 10028,
+    "year_built": 2024,
+    "shipyard": "Mitsubishi",
+    "last_ports": [
+      "Gioia Tauro",
+      "Felixstowe",
+      "Long Beach",
+      "Shanghai",
+      "Antwerp",
+      "Jebel Ali",
+      "Rotterdam",
+      "Hamburg",
+      "Shenzhen",
+      "Los Angeles"
+    ],
+    "photo_url": "/dataImg/YMWellbeing.png",
+    "draft_m": 11.47,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.513514Z",
+      "lat": 89.02448,
+      "lon": -13.286786
+    },
+    "loa_m": 335.0
+  },
+  {
+    "name": "ONE Columba",
+    "min_teu": 19474,
+    "year_built": 1998,
+    "shipyard": "Fincantieri",
+    "last_ports": [
+      "Singapore",
+      "Antwerp",
+      "Valencia",
+      "Tanjung Pelepas",
+      "Long Beach",
+      "Rotterdam",
+      "Port Klang",
+      "Busan",
+      "New York",
+      "Gioia Tauro"
+    ],
+    "photo_url": "/dataImg/ONEColumba.png",
+    "draft_m": 15.54,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.505101Z",
+      "lat": -28.922979,
+      "lon": -89.914834
+    },
+    "loa_m": 366.0
+  },
+  {
+    "name": "MSC Mina",
+    "min_teu": 18851,
+    "year_built": 2009,
+    "shipyard": "Samsung",
+    "last_ports": [
+      "Piraeus",
+      "Valencia",
+      "Gioia Tauro",
+      "Busan",
+      "Rotterdam",
+      "Antwerp",
+      "Felixstowe",
+      "New York",
+      "Shenzhen",
+      "Los Angeles"
+    ],
+    "photo_url": "/dataImg/MSCMina.png",
+    "draft_m": 12.92,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.511608Z",
+      "lat": -35.153992,
+      "lon": 127.352958
+    },
+    "loa_m": 366.0
+  },
+  {
+    "name": "Ever Given",
+    "min_teu": 21511,
+    "year_built": 2013,
+    "shipyard": "Fincantieri",
+    "last_ports": [
+      "Tanjung Pelepas",
+      "Piraeus",
+      "Dubai",
+      "Antwerp",
+      "Jebel Ali",
+      "Gioia Tauro",
+      "Long Beach",
+      "Shenzhen",
+      "Felixstowe",
+      "Los Angeles"
+    ],
+    "photo_url": "/dataImg/EverGiven.png",
+    "draft_m": 11.68,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.515211Z",
+      "lat": -40.351322,
+      "lon": -66.81451
+    },
+    "loa_m": 399.9
+  },
+  {
+    "name": "CMA CGM Zheng He",
+    "min_teu": 13333,
+    "year_built": 2020,
+    "shipyard": "Mitsubishi",
+    "last_ports": [
+      "Los Angeles",
+      "Long Beach",
+      "Hamburg",
+      "Antwerp",
+      "Busan",
+      "New York",
+      "Gioia Tauro",
+      "Port Klang",
+      "Tanjung Pelepas",
+      "Valencia"
+    ],
+    "photo_url": "/dataImg/CMACGMCZhengHe.png",
+    "draft_m": 11.56,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.521330Z",
+      "lat": -48.229243,
+      "lon": 82.296233
+    },
+    "loa_m": 335.0
+  },
+  {
+    "name": "Ever Art",
+    "min_teu": 23931,
+    "year_built": 2006,
+    "shipyard": "Hyundai",
+    "last_ports": [
+      "Singapore",
+      "Felixstowe",
+      "Valencia",
+      "Long Beach",
+      "Dubai",
+      "Jebel Ali",
+      "Rotterdam",
+      "Piraeus",
+      "Hamburg",
+      "Shenzhen"
+    ],
+    "photo_url": "/dataImg/EverArt.png",
+    "draft_m": 15.12,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.511511Z",
+      "lat": 45.22022,
+      "lon": -137.314804
+    },
+    "loa_m": 399.9
+  },
+  {
+    "name": "OOCL Germany",
+    "min_teu": 6978,
+    "year_built": 2009,
+    "shipyard": "Samsung",
+    "last_ports": [
+      "Shenzhen",
+      "New York",
+      "Valencia",
+      "Shanghai",
+      "Dubai",
+      "Gioia Tauro",
+      "Piraeus",
+      "Felixstowe",
+      "Tanjung Pelepas",
+      "Long Beach"
+    ],
+    "photo_url": "/dataImg/OOCLGermany.png",
+    "draft_m": 9.3,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.515088Z",
+      "lat": -15.866138,
+      "lon": -22.72126
+    },
+    "loa_m": 294.0
+  },
+  {
+    "name": "Cosco Shipping Himalayas",
+    "min_teu": 21673,
+    "year_built": 2010,
+    "shipyard": "Hyundai",
+    "last_ports": [
+      "Piraeus",
+      "Long Beach",
+      "Shanghai",
+      "Gioia Tauro",
+      "Valencia",
+      "Rotterdam",
+      "Dubai",
+      "Jebel Ali",
+      "New York",
+      "Felixstowe"
+    ],
+    "photo_url": "/dataImg/CoscoHimalayas.png",
+    "draft_m": 15.4,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.521839Z",
+      "lat": 20.658465,
+      "lon": -35.698965
+    },
+    "loa_m": 399.9
+  },
+  {
+    "name": "APL Merlion",
+    "min_teu": 17470,
+    "year_built": 2022,
+    "shipyard": "Fincantieri",
+    "last_ports": [
+      "Shenzhen",
+      "Long Beach",
+      "Port Klang",
+      "Tanjung Pelepas",
+      "Jebel Ali",
+      "New York",
+      "Shanghai",
+      "Gioia Tauro",
+      "Felixstowe",
+      "Los Angeles"
+    ],
+    "photo_url": "/dataImg/APLMerlion.png",
+    "draft_m": 9.75,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.516375Z",
+      "lat": -85.086286,
+      "lon": -70.357748
+    },
+    "loa_m": 366.0
+  },
+  {
+    "name": "MSC Febe",
+    "min_teu": 10073,
+    "year_built": 1994,
+    "shipyard": "Mitsubishi",
+    "last_ports": [
+      "Jebel Ali",
+      "Felixstowe",
+      "Singapore",
+      "Tanjung Pelepas",
+      "Hamburg",
+      "Los Angeles",
+      "Port Klang",
+      "Shenzhen",
+      "Rotterdam",
+      "Dubai"
+    ],
+    "photo_url": "/dataImg/MSCFebe.png",
+    "draft_m": 13.5,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.509494Z",
+      "lat": 14.579065,
+      "lon": 118.596375
+    },
+    "loa_m": 335.0
+  },
+  {
+    "name": "HMM Algeciras",
+    "min_teu": 7222,
+    "year_built": 1990,
+    "shipyard": "GGGI",
+    "last_ports": [
+      "Rotterdam",
+      "Tanjung Pelepas",
+      "Busan",
+      "Gioia Tauro",
+      "Dubai",
+      "New York",
+      "Singapore",
+      "Long Beach",
+      "Piraeus",
+      "Shanghai"
+    ],
+    "photo_url": "/dataImg/HMMAlgeciras.png",
+    "draft_m": 9.75,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.515836Z",
+      "lat": -61.772335,
+      "lon": -68.649083
+    },
+    "loa_m": 294.0
+  },
+  {
+    "name": "CMA CGM Kerguelen",
+    "min_teu": 4392,
+    "year_built": 1995,
+    "shipyard": "Samsung",
+    "last_ports": [
+      "Piraeus",
+      "Shanghai",
+      "Hamburg",
+      "Busan",
+      "Singapore",
+      "Long Beach",
+      "Rotterdam",
+      "Antwerp",
+      "Valencia",
+      "Tanjung Pelepas"
+    ],
+    "photo_url": "/dataImg/CMACGMKerguelen.png",
+    "draft_m": 12.49,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.515322Z",
+      "lat": -13.034153,
+      "lon": -64.017886
+    },
+    "loa_m": 230.0
+  },
+  {
+    "name": "OOCL Hong Kong",
+    "min_teu": 7737,
+    "year_built": 2001,
+    "shipyard": "Daewoo",
+    "last_ports": [
+      "Los Angeles",
+      "Antwerp",
+      "Shanghai",
+      "Tanjung Pelepas",
+      "Piraeus",
+      "New York",
+      "Busan",
+      "Jebel Ali",
+      "Felixstowe",
+      "Valencia"
+    ],
+    "photo_url": "/dataImg/OOCLHongKong.png",
+    "draft_m": 13.05,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.513250Z",
+      "lat": -46.608294,
+      "lon": 43.679332
+    },
+    "loa_m": 294.0
+  },
+  {
+    "name": "Maersk Mc-Kinney Moller",
+    "min_teu": 8457,
+    "year_built": 2002,
+    "shipyard": "Hyundai",
+    "last_ports": [
+      "Busan",
+      "Shenzhen",
+      "Tanjung Pelepas",
+      "Jebel Ali",
+      "Piraeus",
+      "Port Klang",
+      "Rotterdam",
+      "Long Beach",
+      "Los Angeles",
+      "Gioia Tauro"
+    ],
+    "photo_url": "/dataImg/MaerskMcKinneyMoller.png",
+    "draft_m": 8.87,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.508426Z",
+      "lat": -1.71692,
+      "lon": -151.367344
+    },
+    "loa_m": 294.0
+  },
+  {
+    "name": "CMA CGM Antoine De Saint Exupery",
+    "min_teu": 7408,
+    "year_built": 2015,
+    "shipyard": "Fincantieri",
+    "last_ports": [
+      "Antwerp",
+      "Felixstowe",
+      "Valencia",
+      "Gioia Tauro",
+      "New York",
+      "Hamburg",
+      "Jebel Ali",
+      "Rotterdam",
+      "Long Beach",
+      "Los Angeles"
+    ],
+    "photo_url": "/dataImg/CMACGMAntoineDeSaintExupery.png",
+    "draft_m": 14.99,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.518352Z",
+      "lat": -72.243882,
+      "lon": -85.491733
+    },
+    "loa_m": 294.0
+  },
+  {
+    "name": "Cosco Shipping Universe",
+    "min_teu": 22118,
+    "year_built": 2014,
+    "shipyard": "CSBC",
+    "last_ports": [
+      "Singapore",
+      "Shanghai",
+      "Busan",
+      "Los Angeles",
+      "Tanjung Pelepas",
+      "Piraeus",
+      "Antwerp",
+      "Shenzhen",
+      "Hamburg",
+      "Jebel Ali"
+    ],
+    "photo_url": "/dataImg/CoscoUniverse.png",
+    "draft_m": 8.39,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.510318Z",
+      "lat": 41.949043,
+      "lon": 137.135716
+    },
+    "loa_m": 399.9
+  },
+  {
+    "name": "HMM Hamburg",
+    "min_teu": 14120,
+    "year_built": 1993,
+    "shipyard": "GGGI",
+    "last_ports": [
+      "Los Angeles",
+      "Shanghai",
+      "Port Klang",
+      "Valencia",
+      "Rotterdam",
+      "Antwerp",
+      "Hamburg",
+      "Tanjung Pelepas",
+      "Piraeus",
+      "Singapore"
+    ],
+    "photo_url": "/dataImg/HMMHamburg.png",
+    "draft_m": 10.58,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.516339Z",
+      "lat": -66.216771,
+      "lon": -5.720851
+    },
+    "loa_m": 335.0
+  },
+  {
+    "name": "YM Warranty",
+    "min_teu": 15340,
+    "year_built": 2024,
+    "shipyard": "Daewoo",
+    "last_ports": [
+      "Los Angeles",
+      "Jebel Ali",
+      "Antwerp",
+      "Gioia Tauro",
+      "Shanghai",
+      "Piraeus",
+      "Rotterdam",
+      "Singapore",
+      "Port Klang",
+      "Valencia"
+    ],
+    "photo_url": "/dataImg/YMWarranty.png",
+    "draft_m": 11.07,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.509139Z",
+      "lat": -55.833396,
+      "lon": 64.233285
+    },
+    "loa_m": 366.0
+  },
+  {
+    "name": "Madrid Express",
+    "min_teu": 5892,
+    "year_built": 2004,
+    "shipyard": "Daewoo",
+    "last_ports": [
+      "Rotterdam",
+      "Singapore",
+      "Long Beach",
+      "Hamburg",
+      "Los Angeles",
+      "Felixstowe",
+      "Gioia Tauro",
+      "Shanghai",
+      "Busan",
+      "Antwerp"
+    ],
+    "photo_url": "/dataImg/MadridExpress.png",
+    "draft_m": 10.89,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.513781Z",
+      "lat": -79.193988,
+      "lon": 3.008156
+    },
+    "loa_m": 294.0
+  },
+  {
+    "name": "Cosco Shipping Taurus",
+    "min_teu": 23879,
+    "year_built": 2002,
+    "shipyard": "CSBC",
+    "last_ports": [
+      "Jebel Ali",
+      "Felixstowe",
+      "New York",
+      "Valencia",
+      "Rotterdam",
+      "Shanghai",
+      "Long Beach",
+      "Tanjung Pelepas",
+      "Port Klang",
+      "Busan"
+    ],
+    "photo_url": "/dataImg/CoscoTaurus.png",
+    "draft_m": 11.73,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.515941Z",
+      "lat": 60.772733,
+      "lon": -15.297979
+    },
+    "loa_m": 399.9
+  },
+  {
+    "name": "MOL Tribute",
+    "min_teu": 5903,
+    "year_built": 2019,
+    "shipyard": "Fincantieri",
+    "last_ports": [
+      "Felixstowe",
+      "Busan",
+      "Los Angeles",
+      "Piraeus",
+      "Singapore",
+      "Port Klang",
+      "Rotterdam",
+      "Shanghai",
+      "New York",
+      "Dubai"
+    ],
+    "photo_url": "/dataImg/MOLTribute.png",
+    "draft_m": 11.35,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.513674Z",
+      "lat": 52.557519,
+      "lon": -39.363296
+    },
+    "loa_m": 294.0
+  },
+  {
+    "name": "Ever Forever",
+    "min_teu": 3916,
+    "year_built": 1995,
+    "shipyard": "Mitsubishi",
+    "last_ports": [
+      "Piraeus",
+      "Rotterdam",
+      "Antwerp",
+      "Port Klang",
+      "New York",
+      "Jebel Ali",
+      "Gioia Tauro",
+      "Dubai",
+      "Shanghai",
+      "Tanjung Pelepas"
+    ],
+    "photo_url": "/dataImg/EverForever.png",
+    "draft_m": 10.39,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.520552Z",
+      "lat": 44.702193,
+      "lon": 126.232539
+    },
+    "loa_m": 230.0
+  },
+  {
+    "name": "MSC Samar",
+    "min_teu": 23359,
+    "year_built": 2015,
+    "shipyard": "Hyundai",
+    "last_ports": [
+      "New York",
+      "Valencia",
+      "Shenzhen",
+      "Hamburg",
+      "Shanghai",
+      "Singapore",
+      "Antwerp",
+      "Busan",
+      "Jebel Ali",
+      "Port Klang"
+    ],
+    "photo_url": "/dataImg/MSCSamar.png",
+    "draft_m": 9.53,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.515675Z",
+      "lat": -45.243686,
+      "lon": -135.401163
+    },
+    "loa_m": 399.9
+  },
+  {
+    "name": "ONE Infinity",
+    "min_teu": 21682,
+    "year_built": 1998,
+    "shipyard": "Hyundai",
+    "last_ports": [
+      "Felixstowe",
+      "Los Angeles",
+      "Jebel Ali",
+      "Dubai",
+      "Hamburg",
+      "Singapore",
+      "Port Klang",
+      "Shanghai",
+      "Antwerp",
+      "Valencia"
+    ],
+    "photo_url": "/dataImg/ONEInfinity.png",
+    "draft_m": 14.13,
+    "geared": true,
+    "gear_info": "2x40t cranes",
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.508220Z",
+      "lat": -71.570077,
+      "lon": -150.992572
+    },
+    "loa_m": 399.9
+  },
+  {
+    "name": "Maersk Eindhoven",
+    "min_teu": 3238,
+    "year_built": 1992,
+    "shipyard": "GGGI",
+    "last_ports": [
+      "Valencia",
+      "Los Angeles",
+      "Long Beach",
+      "Tanjung Pelepas",
+      "Rotterdam",
+      "Antwerp",
+      "Shanghai",
+      "Felixstowe",
+      "New York",
+      "Jebel Ali"
+    ],
+    "photo_url": "/dataImg/MaerskEindhoven.png",
+    "draft_m": 14.52,
+    "geared": false,
+    "gear_info": null,
+    "current_position": {
+      "timestamp": "2025-06-13T10:01:49.508004Z",
+      "lat": 89.323587,
+      "lon": 117.370266
+    },
+    "loa_m": 230.0
+  }
+]
