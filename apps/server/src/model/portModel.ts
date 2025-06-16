@@ -1,11 +1,19 @@
-import ports from '../data/ports.json';
+import prisma from "../prisma";
+
+
 
 export async function getAllPorts() {
-    return ports;
+   return await prisma.port.findMany()
 }
 
 export async function findPortByName(name: string) {
-    return ports.filter(port =>
-        port.name.toLowerCase().includes(name.toLowerCase())
-    );
+    return await prisma.port.findMany({
+        where : {
+            name: {
+                contains: name,
+                mode: "insensitive"
+            }
+        }
+    })
 }
+

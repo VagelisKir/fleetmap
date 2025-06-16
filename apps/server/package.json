@@ -28,5 +28,8 @@
     "build": "tsc",
     "dev": "nodemon src/index.ts",
     "lint": "eslint ./src/**"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   }
 }

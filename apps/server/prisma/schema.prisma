@@ -17,23 +17,28 @@ model Port {
   id               Int    @id @default(autoincrement())
   name             String
   country          String
-  lastVisitedShips Ship[]
+  max_draught_m    Float
+  max_length_m     Int
+  berths           Int
+  photo_url        String
+  position_lat     Float
+  position_lon     Float
+  lastVisitedShips Json
 }
 
 model Ship {
-  id        Int      @id @default(autoincrement())
-  name      String
-  imo       Int
-  visitedAt DateTime
-  teu       Int
-  loa_m     Float
-  draft_m   Float
-  photo_url String
-  geared    Boolean
-  gear_info String?
-  latitude  Float
-  longitude Float
-
-  portId Int
-  port   Port @relation(fields: [portId], references: [id])
+  id         Int      @id @default(autoincrement())
+  name       String
+  min_teu    Int
+  loa_m      Float
+  draft_m    Float
+  geared     Boolean
+  gear_info  String?
+  year_built Int?
+  shipyard   String?
+  last_ports String[]
+  photo_url  String
+  latitude   Float
+  longitude  Float
+  timestamp  DateTime
 }

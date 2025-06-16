@@ -1,7 +1,7 @@
 import express, { Express } from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors'
-import getShips from './controller/shipController';
+import { getShips, getShipsByTeu } from './controller/shipController';
 import { getPorts, getPortByName } from './controller/portController';
 dotenv.config();
 
@@ -13,6 +13,7 @@ app.use(express.json())
 const port = process.env.PORT || 3000;
 
 app.get('/ships', getShips)
+app.get('/ships/search', getShipsByTeu)
 app.get('/ports', getPorts)
 app.get('/ports/:name', getPortByName)
 
