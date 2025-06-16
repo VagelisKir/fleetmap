@@ -27,6 +27,13 @@ model Ship {
   visitedAt DateTime
   teu       Int
   loa_m     Float
-  portId    Int
-  port      Port     @relation(fields: [portId], references: [id])
+  draft_m   Float
+  photo_url String
+  geared    Boolean
+  gear_info String?
+  latitude  Float
+  longitude Float
+
+  portId Int
+  port   Port @relation(fields: [portId], references: [id])
 }
