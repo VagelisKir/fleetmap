@@ -4,7 +4,7 @@ import { Request, Response } from "express"
 
 const shipInfo: Ship[] = ships
 
-export default function getShips(_req: Request, res: Response) {
+export default async function getShips(_req: Request, res: Response) {
     res.json(shipInfo)
 }
 
