@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { findPortByName, getAllPorts } from "../model/portModel";
 
-//Get All
+//Get All ports
 export async function getPorts(_req: Request, res: Response): Promise<void>  {
     try {
         const ports = await getAllPorts()
@@ -14,7 +14,8 @@ export async function getPorts(_req: Request, res: Response): Promise<void>  {
     }
 }
 
-// Get by name
+// Get by ports name
+
 export async function getPortByName(req: Request, res: Response): Promise<void> {
     const name = req.params.name
     if(!name) {

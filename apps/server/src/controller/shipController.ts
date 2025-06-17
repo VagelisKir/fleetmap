@@ -1,7 +1,7 @@
 import { findShipByTeu, getAllShips } from "../model/shipModel"
 import { Request, Response } from "express"
 
-
+// get all ships
 
 export async function getShips(_req: Request, res: Response): Promise<void> {
     try {
@@ -13,7 +13,7 @@ export async function getShips(_req: Request, res: Response): Promise<void> {
     }
 }
 
-
+// get ships by teu
 
 export async function getShipsByTeu(req: Request, res: Response): Promise<void> {
     const minTeu = Number(req.query.minTeu)
