@@ -9,6 +9,8 @@ const app: Express = express()
 
 app.use(cors())
 app.use(express.json())
+app.use('/portImg', express.static("public/portImg"))
+app.use('/dataImg', express.static("public/shipImg"))
 
 const port = process.env.PORT || 3000;
 

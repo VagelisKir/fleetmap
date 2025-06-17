@@ -1,21 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import MapComponent from "./components/MapComponent.tsx";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
-import { AppSidebar } from "@/components/app-sidebar.tsx"
-
+import { AppSidebar } from "@/components/appSidebar.tsx"
+import { Ship } from "../../server/src/types/Ship";
+import { Port } from "../../server/src/types/Port";
 
 const HomePage: React.FC = () => {
-  return (
-    <SidebarProvider>
-      <div className="flex h-screen">
-        <AppSidebar />
+  const [data, setData] = useState<Ship[] | Port[]>([])
+  const [type, setType] = useState<'ship' | 'port'>('ship')
 
-        <div className="flex-1 w-screen h-screen">
+  const handleSearch = (filtered: Ship[] | Port[], selectedType: 'ship' | 'port') => {
+    setData(filtered)
+    setType(selectedType)
+  }
+
+  return (
+   <SidebarProvider>
+          <AppSidebar onSearch={handleSearch} />
+          <div className="h-screen w-screen">
           <SidebarTrigger />
-          <MapComponent />
+          <MapComponent data={data} type={type} />
         </div>
-      </div>
     </SidebarProvider>
-  )}
+  )
+}
 
 export default HomePage;

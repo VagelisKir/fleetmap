@@ -8,10 +8,8 @@ export interface Ship {
     draft_m: number
     geared: boolean
     gear_info: string | null
-    current_position: {
-        timestamp: string
-        lat: number
-        lon: number
-    }
-    loa_m:number
+    latitude: number
+    longitude: number
+    timestamp: string
+    loa_m: number
 }

@@ -1,7 +1,9 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
-import { containerShips } from "../data";
+import { Ship } from "../../../server/src/types/Ship"
+import { Port } from "../../../server/src/types/Port"
+
 
 const iconUrl = "https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon.png";
 const iconRetinaUrl = "https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon-2x.png";
@@ -19,9 +21,14 @@ const defaultIcon = new L.Icon({
 
 L.Marker.prototype.options.icon = defaultIcon;
 
-export default function ShipMap() {
+interface ShipMapProps {
+  data: Ship[] | Port[]
+  type: "ship" | "port"
+}
+
+export default function ShipMap({ data, type }: ShipMapProps) {
   return (
-    <div className="w-full h-full"> 
+    <div className="w-full h-full">
       <MapContainer
         center={[20, 0]}
         zoom={2}
@@ -37,17 +44,35 @@ export default function ShipMap() {
         className="h-full w-full"
       >
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-        {containerShips.map((ship, index) => (
-          <Marker
-            key={index}
-            position={[ship.latitude, ship.longitude] as [number, number]}
-          >
-            <Popup>
-              <strong>{ship.name}</strong><br />
-              TEU: {ship.teu}
-            </Popup>
-          </Marker>
-        ))}
+
+        {data.map((item, index) => {
+          const position = type === "ship"
+            ? { lat: (item as Ship).latitude, lon: (item as Ship).longitude }
+            : (item as Port).position;
+
+
+          if (!position || typeof position.lat !== 'number' || typeof position.lon !== 'number') {
+            return null;
+          }
+
+          return (
+            <Marker key={index} position={[position.lat, position.lon]}>
+              <Popup>
+                {type === "ship" ? (
+                  <>
+                    <strong>{(item as Ship).name}</strong><br />
+                    TEU: {(item as Ship).min_teu}
+                  </>
+                ) : (
+                  <>
+                    <strong>{(item as Port).name}</strong><br />
+                    Country: {(item as Port).country}
+                  </>
+                )}
+              </Popup>
+            </Marker>
+          );
+        })}
       </MapContainer>
     </div>
   );

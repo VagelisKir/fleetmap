@@ -151,7 +151,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/Shanghai"
+    "photo_url": "http://localhost:3000/portImg/Shanghai.png"
   },
   {
     "name": "Port of Singapore",
@@ -305,7 +305,7 @@
         "loa_m": 400.0
       }
     ],
-    "photo_url": "/portImg/Singapore"
+    "photo_url": "http://localhost:3000/portImg/Singapore.png"
   },
   {
     "name": "Port of Ningbo",
@@ -459,7 +459,7 @@
         "loa_m": 335.0
       }
     ],
-    "photo_url": "/portImg/Ningbo"
+    "photo_url": "http://localhost:3000/portImg/Ningbo.png"
   },
   {
     "name": "Port of Shenzhen",
@@ -613,7 +613,7 @@
         "loa_m": 335.0
       }
     ],
-    "photo_url": "/portImg/Shenzhen"
+    "photo_url": "http://localhost:3000/portImg/Shenzhen.png"
   },
   {
     "name": "Port of Qingdao",
@@ -767,161 +767,7 @@
         "loa_m": 366.0
       }
     ],
-    "photo_url": "/portImg/Qingdao"
-  },
-  {
-    "name": "Port of Busan",
-    "country": "South Korea",
-    "position": {
-      "lat": 35.0958,
-      "lon": 129.0403
-    },
-    "max_draught_m": 15.5,
-    "max_length_m": 400,
-    "berths": 17,
-    "last_visited_ships": [
-      {
-        "name": "MV Ever-2213",
-        "imo": 9041770,
-        "visited_at": "2025-05-31T10:22:46.404935Z",
-        "teu": 20000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV HMM-1488",
-        "imo": 9598126,
-        "visited_at": "2025-05-18T10:22:46.404940Z",
-        "teu": 23000,
-        "loa_m": 400.0
-      },
-      {
-        "name": "MV MSC-9875",
-        "imo": 9612188,
-        "visited_at": "2025-06-09T10:22:46.404945Z",
-        "teu": 10000,
-        "loa_m": 335.0
-      },
-      {
-        "name": "MV Maersk-6400",
-        "imo": 9940239,
-        "visited_at": "2025-06-06T10:22:46.404949Z",
-        "teu": 15000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV CMA-9744",
-        "imo": 9069526,
-        "visited_at": "2025-05-20T10:22:46.404954Z",
-        "teu": 12000,
-        "loa_m": 366.0
-      },
-      {
-        "name": "MV MSC-4199",
-        "imo": 9751023,
-        "visited_at": "2025-05-17T10:22:46.404958Z",
-        "teu": 10000,
-        "loa_m": 335.0
-      },
-      {
-        "name": "MV CMA-2192",
-        "imo": 9646576,
-        "visited_at": "2025-05-20T10:22:46.404963Z",
-        "teu": 12000,
-        "loa_m": 366.0
-      },
-      {
-        "name": "MV Maersk-1009",
-        "imo": 9632578,
-        "visited_at": "2025-05-29T10:22:46.404967Z",
-        "teu": 15000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV Maersk-8120",
-        "imo": 9303169,
-        "visited_at": "2025-05-21T10:22:46.404972Z",
-        "teu": 15000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV Ever-5501",
-        "imo": 9364405,
-        "visited_at": "2025-05-30T10:22:46.404978Z",
-        "teu": 20000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV Maersk-2504",
-        "imo": 9992828,
-        "visited_at": "2025-05-18T10:22:46.404983Z",
-        "teu": 15000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV CMA-1246",
-        "imo": 9778656,
-        "visited_at": "2025-06-12T10:22:46.404988Z",
-        "teu": 12000,
-        "loa_m": 366.0
-      },
-      {
-        "name": "MV Maersk-6336",
-        "imo": 9099200,
-        "visited_at": "2025-05-31T10:22:46.404992Z",
-        "teu": 15000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV HMM-3211",
-        "imo": 9864145,
-        "visited_at": "2025-06-10T10:22:46.404997Z",
-        "teu": 23000,
-        "loa_m": 400.0
-      },
-      {
-        "name": "MV Ever-4776",
-        "imo": 9162325,
-        "visited_at": "2025-05-30T10:22:46.405001Z",
-        "teu": 20000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV HMM-7685",
-        "imo": 9208197,
-        "visited_at": "2025-05-14T10:22:46.405006Z",
-        "teu": 23000,
-        "loa_m": 400.0
-      },
-      {
-        "name": "MV Maersk-4923",
-        "imo": 9883653,
-        "visited_at": "2025-05-19T10:22:46.405010Z",
-        "teu": 15000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV HMM-5501",
-        "imo": 9119848,
-        "visited_at": "2025-05-19T10:22:46.405015Z",
-        "teu": 23000,
-        "loa_m": 400.0
-      },
-      {
-        "name": "MV Ever-1812",
-        "imo": 9861859,
-        "visited_at": "2025-06-07T10:22:46.405020Z",
-        "teu": 20000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV HMM-3797",
-        "imo": 9852305,
-        "visited_at": "2025-05-19T10:22:46.405024Z",
-        "teu": 23000,
-        "loa_m": 400.0
-      }
-    ],
-    "photo_url": "/portImg/Busan"
+    "photo_url": "http://localhost:3000/portImg/Qingdao.png"
   },
   {
     "name": "Port of Tianjin",
@@ -1075,7 +921,7 @@
         "loa_m": 335.0
       }
     ],
-    "photo_url": "/portImg/Tianjin"
+    "photo_url": "http://localhost:3000/portImg/Tianjin.png"
   },
   {
     "name": "Port of Guangzhou",
@@ -1229,7 +1075,7 @@
         "loa_m": 335.0
       }
     ],
-    "photo_url": "/portImg/Guangzhou"
+    "photo_url": "http://localhost:3000/portImg/Guangzhou.png"
   },
   {
     "name": "Port of Jebel Ali",
@@ -1383,7 +1229,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/JebelAli"
+    "photo_url": "http://localhost:3000/portImg/JebelAli.png"
   },
   {
     "name": "Port of Rotterdam",
@@ -1537,7 +1383,7 @@
         "loa_m": 366.0
       }
     ],
-    "photo_url": "/portImg/Rotterdam"
+    "photo_url": "http://localhost:3000/portImg/Rotterdam.png"
   },
   {
     "name": "Port of Antwerp",
@@ -1691,7 +1537,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/Antwerp"
+    "photo_url": "http://localhost:3000/portImg/Antwerp.png"
   },
   {
     "name": "Port Klang",
@@ -1845,7 +1691,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/Antwerp"
+    "photo_url": "http://localhost:3000/portImg/Antwerp.png"
   },
   {
     "name": "Port of Hong Kong",
@@ -1999,7 +1845,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/HKG"
+    "photo_url": "http://localhost:3000/portImg/HongKong.png"
   },
   {
     "name": "Port of Kaohsiung",
@@ -2153,7 +1999,7 @@
         "loa_m": 400.0
       }
     ],
-    "photo_url": "/portImg/Kaohsiung"
+    "photo_url": "http://localhost:3000/portImg/Kaohsiung.png"
   },
   {
     "name": "Port of Laem Chabang",
@@ -2307,7 +2153,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/LaemChabang"
+    "photo_url": "http://localhost:3000/portImg/LaemChabang.png"
   },
   {
     "name": "Port of Tanger-Med",
@@ -2461,7 +2307,7 @@
         "loa_m": 366.0
       }
     ],
-    "photo_url": "/portImg/TangerMed"
+    "photo_url": "http://localhost:3000/portImg/TangerMed.png"
   },
   {
     "name": "Port of New York/New Jersey",
@@ -2615,7 +2461,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/NY.png"
+    "photo_url": "http://localhost:3000/portImg/NewYork.png"
   },
   {
     "name": "Port of Hamburg",
@@ -2769,7 +2615,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/Hamburg.png"
+    "photo_url": "http://localhost:3000/portImg/Hamburg.png"
   },
   {
     "name": "Port of Savannah",
@@ -2923,7 +2769,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/Savannah.png"
+    "photo_url": "http://localhost:3000/portImg/Savannah.png"
   },
   {
     "name": "Port of Colombo",
@@ -3077,161 +2923,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/Colombo.png"
-  },
-  {
-    "name": "Port of Mundra",
-    "country": "India",
-    "position": {
-      "lat": 22.9333,
-      "lon": 69.7167
-    },
-    "max_draught_m": 15.1,
-    "max_length_m": 400,
-    "berths": 18,
-    "last_visited_ships": [
-      {
-        "name": "MV Ever-9757",
-        "imo": 9144138,
-        "visited_at": "2025-05-15T10:22:46.406640Z",
-        "teu": 20000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV Maersk-5781",
-        "imo": 9418443,
-        "visited_at": "2025-05-15T10:22:46.406647Z",
-        "teu": 15000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV HMM-6384",
-        "imo": 9955555,
-        "visited_at": "2025-06-06T10:22:46.406655Z",
-        "teu": 23000,
-        "loa_m": 400.0
-      },
-      {
-        "name": "MV MSC-5013",
-        "imo": 9536302,
-        "visited_at": "2025-06-01T10:22:46.406663Z",
-        "teu": 10000,
-        "loa_m": 335.0
-      },
-      {
-        "name": "MV MSC-9593",
-        "imo": 9040023,
-        "visited_at": "2025-06-02T10:22:46.406671Z",
-        "teu": 10000,
-        "loa_m": 335.0
-      },
-      {
-        "name": "MV MSC-3176",
-        "imo": 9624188,
-        "visited_at": "2025-06-09T10:22:46.406678Z",
-        "teu": 10000,
-        "loa_m": 335.0
-      },
-      {
-        "name": "MV CMA-5198",
-        "imo": 9586875,
-        "visited_at": "2025-06-13T10:22:46.406683Z",
-        "teu": 12000,
-        "loa_m": 366.0
-      },
-      {
-        "name": "MV Maersk-1949",
-        "imo": 9518410,
-        "visited_at": "2025-05-22T10:22:46.406687Z",
-        "teu": 15000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV MSC-3798",
-        "imo": 9312537,
-        "visited_at": "2025-06-03T10:22:46.406692Z",
-        "teu": 10000,
-        "loa_m": 335.0
-      },
-      {
-        "name": "MV Maersk-4619",
-        "imo": 9557301,
-        "visited_at": "2025-05-19T10:22:46.406697Z",
-        "teu": 15000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV MSC-4576",
-        "imo": 9063768,
-        "visited_at": "2025-06-02T10:22:46.406701Z",
-        "teu": 10000,
-        "loa_m": 335.0
-      },
-      {
-        "name": "MV CMA-5004",
-        "imo": 9445167,
-        "visited_at": "2025-05-20T10:22:46.406705Z",
-        "teu": 12000,
-        "loa_m": 366.0
-      },
-      {
-        "name": "MV Ever-3348",
-        "imo": 9780834,
-        "visited_at": "2025-06-05T10:22:46.406710Z",
-        "teu": 20000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV MSC-3353",
-        "imo": 9060275,
-        "visited_at": "2025-05-23T10:22:46.406714Z",
-        "teu": 10000,
-        "loa_m": 335.0
-      },
-      {
-        "name": "MV CMA-8587",
-        "imo": 9134504,
-        "visited_at": "2025-06-06T10:22:46.406719Z",
-        "teu": 12000,
-        "loa_m": 366.0
-      },
-      {
-        "name": "MV CMA-1159",
-        "imo": 9471640,
-        "visited_at": "2025-05-28T10:22:46.406724Z",
-        "teu": 12000,
-        "loa_m": 366.0
-      },
-      {
-        "name": "MV CMA-4404",
-        "imo": 9364379,
-        "visited_at": "2025-06-10T10:22:46.406728Z",
-        "teu": 12000,
-        "loa_m": 366.0
-      },
-      {
-        "name": "MV Maersk-6932",
-        "imo": 9757611,
-        "visited_at": "2025-06-10T10:22:46.406733Z",
-        "teu": 15000,
-        "loa_m": 399.0
-      },
-      {
-        "name": "MV MSC-9595",
-        "imo": 9475533,
-        "visited_at": "2025-06-11T10:22:46.406737Z",
-        "teu": 10000,
-        "loa_m": 335.0
-      },
-      {
-        "name": "MV Maersk-6519",
-        "imo": 9636229,
-        "visited_at": "2025-06-04T10:22:46.406742Z",
-        "teu": 15000,
-        "loa_m": 399.0
-      }
-    ],
-    "photo_url": "/portImg/Mundra.png"
+    "photo_url": "http://localhost:3000/portImg/Colombo.png"
   },
   {
     "name": "Port of Nhava Sheva",
@@ -3385,7 +3077,7 @@
         "loa_m": 400.0
       }
     ],
-    "photo_url": "/portImg/Nhava.png"
+    "photo_url": "http://localhost:3000/portImg/Nhava.png"
   },
   {
     "name": "Port of Rizhao",
@@ -3539,7 +3231,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/Rizhao.png"
+    "photo_url": "http://localhost:3000/portImg/Rizhao.png"
   },
   {
     "name": "Port of Hai Phong",
@@ -3693,7 +3385,7 @@
         "loa_m": 366.0
       }
     ],
-    "photo_url": "/portImg/Haiphong.png"
+    "photo_url": "http://localhost:3000/portImg/Haiphong.png"
   },
   {
     "name": "Port of Vung Tau",
@@ -3847,7 +3539,7 @@
         "loa_m": 366.0
       }
     ],
-    "photo_url": "/portImg/VungTau.png"
+    "photo_url": "http://localhost:3000/portImg/VungTau.png"
   },
   {
     "name": "Port of Lianyungang",
@@ -4001,7 +3693,7 @@
         "loa_m": 335.0
       }
     ],
-    "photo_url": "/portImg/Lianyungang.png"
+    "photo_url": "http://localhost:3000/portImg/Lianyungang.png"
   },
   {
     "name": "Port of Manila",
@@ -4155,7 +3847,7 @@
         "loa_m": 335.0
       }
     ],
-    "photo_url": "/portImg/Manila.png"
+    "photo_url": "http://localhost:3000/portImg/Manila.png"
   },
   {
     "name": "Port of Qinzhou",
@@ -4309,7 +4001,7 @@
         "loa_m": 335.0
       }
     ],
-    "photo_url": "/portImg/Qinzhou.png"
+    "photo_url": "http://localhost:3000/portImg/Qinzhou.png"
   },
   {
     "name": "Port of Colon",
@@ -4463,7 +4155,7 @@
         "loa_m": 335.0
       }
     ],
-    "photo_url": "/portImg/Colon.png"
+    "photo_url": "http://localhost:3000/portImg/Colon.png"
   },
   {
     "name": "Port of Piraeus",
@@ -4617,7 +4309,7 @@
         "loa_m": 366.0
       }
     ],
-    "photo_url": "/portImg/Piraeus.png"
+    "photo_url": "http://localhost:3000/portImg/Piraeus.png"
   },
   {
     "name": "Port of Valencia",
@@ -4771,7 +4463,7 @@
         "loa_m": 335.0
       }
     ],
-    "photo_url": "/portImg/Valencia.png"
+    "photo_url": "http://localhost:3000/portImg/Valencia.png"
   },
   {
     "name": "Port of Santos",
@@ -4925,7 +4617,7 @@
         "loa_m": 366.0
       }
     ],
-    "photo_url": "/portImg/Santos.png"
+    "photo_url": "http://localhost:3000/portImg/Santos.png"
   },
   {
     "name": "Port of Jeddah",
@@ -5079,7 +4771,7 @@
         "loa_m": 400.0
       }
     ],
-    "photo_url": "/portImg/Jeddah.png"
+    "photo_url": "http://localhost:3000/portImg/Jeddah.png"
   },
   {
     "name": "Port of Algeciras",
@@ -5233,7 +4925,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/Algeciras.png"
+    "photo_url": "http://localhost:3000/portImg/Algeciras.png"
   },
   {
     "name": "Port of Bremerhaven",
@@ -5387,7 +5079,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/Bremerhaven.png"
+    "photo_url": "http://localhost:3000/portImg/Bremerhaven.png"
   },
   {
     "name": "Port of Salalah",
@@ -5541,7 +5233,7 @@
         "loa_m": 366.0
       }
     ],
-    "photo_url": "/portImg/Salalah.png"
+    "photo_url": "http://localhost:3000/portImg/Salalah.png"
   },
   {
     "name": "Port of Dalian",
@@ -5695,7 +5387,7 @@
         "loa_m": 366.0
       }
     ],
-    "photo_url": "/portImg/Dalian.png"
+    "photo_url": "http://localhost:3000/portImg/Dalian.png"
   },
   {
     "name": "Port of Tokyo",
@@ -5849,7 +5541,7 @@
         "loa_m": 400.0
       }
     ],
-    "photo_url": "/portImg/Tokyo.png"
+    "photo_url": "http://localhost:3000/portImg/Tokyo.png"
   },
   {
     "name": "Port of Houston",
@@ -6003,7 +5695,7 @@
         "loa_m": 366.0
       }
     ],
-    "photo_url": "/portImg/Houston.png"
+    "photo_url": "http://localhost:3000/portImg/Houston.png"
   },
   {
     "name": "Port of Long Beach",
@@ -6157,7 +5849,7 @@
         "loa_m": 335.0
       }
     ],
-    "photo_url": "/portImg/LongBeach.png"
+    "photo_url": "http://localhost:3000/portImg/LongBeach.png"
   },
   {
     "name": "Port of Tanjung Perak",
@@ -6311,7 +6003,7 @@
         "loa_m": 400.0
       }
     ],
-    "photo_url": "/portImg/TanjungPerak.png"
+    "photo_url": "http://localhost:3000/portImg/TanjungPerak.png"
   },
   {
     "name": "Port of Seattle",
@@ -6465,7 +6157,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/Seattle.png"
+    "photo_url": "http://localhost:3000/portImg/Seattle.png"
   },
   {
     "name": "Port of Gladstone",
@@ -6619,7 +6311,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/Gladstone.png"
+    "photo_url": "http://localhost:3000/portImg/Gladstone.png"
   },
   {
     "name": "Port of Incheon",
@@ -6773,7 +6465,7 @@
         "loa_m": 400.0
       }
     ],
-    "photo_url": "/portImg/Incheon.png"
+    "photo_url": "http://localhost:3000/portImg/Incheon.png"
   },
   {
     "name": "Port of Mina Raysut",
@@ -6927,7 +6619,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/Mina.png"
+    "photo_url": "http://localhost:3000/portImg/Mina.png"
   },
   {
     "name": "Port of Surabaya",
@@ -7081,7 +6773,7 @@
         "loa_m": 366.0
       }
     ],
-    "photo_url": "/portImg/Surabaya.png"
+    "photo_url": "http://localhost:3000/portImg/Surabaya.png"
   },
   {
     "name": "Port Said",
@@ -7235,7 +6927,7 @@
         "loa_m": 399.0
       }
     ],
-    "photo_url": "/portImg/Said.png"
+    "photo_url": "http://localhost:3000/portImg/Said.png"
   },
   {
     "name": "Port of Dongguan",
@@ -7389,7 +7081,7 @@
         "loa_m": 366.0
       }
     ],
-    "photo_url": "/portImg/Dongguan.png"
+    "photo_url": "http://localhost:3000/portImg/Dongguan.png"
   },
   {
     "name": "Port of Felixstowe",
@@ -7543,6 +7235,6 @@
         "loa_m": 400.0
       }
     ],
-    "photo_url": "/portImg/Felixstowe.png"
+    "photo_url": "http://localhost:3000/portImg/Felixstowe.png"
   }
 ]
