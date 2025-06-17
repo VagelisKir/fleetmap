@@ -1,15 +1,15 @@
-import type { ContainerShip } from '../data'
+import type { Ship } from '../../../server/src/types/Ship'
 
-interface Props {
-  ship: ContainerShip
+interface ShipCardProps {
+  ship: Ship
 }
 
-export default function ShipCard({ ship }: Props) {
+export default function ShipCard({ ship }: ShipCardProps) {
   return (
     <div className="w-full bg-white rounded-lg shadow-sm text-sm p-4 items-start">
       <figure className="h-32 flex-shrink-0 overflow-hidden rounded-md">
         <img
-          src={ship.photo.url}
+          src={ship.photo_url}
           alt={ship.name}
           className="w-full h-full object-cover"
         />
@@ -27,9 +27,10 @@ export default function ShipCard({ ship }: Props) {
           </svg>
         </h2>
 
-        <p><strong>TEU:</strong> {ship.teu}</p>
-        <p><strong>LOA:</strong> {ship.loa}m</p>
-        <p><strong>Ports:</strong> {ship.lastPorts.slice(0, 3).join(', ')}</p>
+        <p><strong>TEU:</strong> {ship.min_teu}</p>
+        <p><strong>LOA:</strong> {ship.loa_m}</p>
+        <p><strong>Shipyard:</strong> {ship.shipyard}</p>
+        <p><strong>Ports:</strong> {ship.last_ports.slice(0, 3).join(', ')}</p>
 
         <div className="flex justify-end" />
       </div>

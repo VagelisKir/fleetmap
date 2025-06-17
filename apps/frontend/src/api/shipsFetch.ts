@@ -1,5 +1,5 @@
 export async function fetchShips() {
-    const response = await fetch('api/ships')
+    const response = await fetch('/api/ships')
     return response.json()
 }
 
