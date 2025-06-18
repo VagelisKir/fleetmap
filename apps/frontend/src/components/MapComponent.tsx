@@ -3,6 +3,9 @@ import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
 import { Ship } from "../../../server/src/types/Ship"
 import { Port } from "../../../server/src/types/Port"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import sidebebarLogo from "../assets/sidebarlogo.png"
+import portLogo from "../assets/portLogo.png"
 
 
 const shipSvg = `
@@ -72,15 +75,30 @@ export default function ShipMap({ data, type }: ShipMapProps) {
                     icon={type === "ship" ? shipIcon : portIcon}>
               <Popup>
                 {type === "ship" ? (
-                  <>
+                  <div className="flex flex-col items-center text-center">
+                 <Avatar>
+                    <AvatarImage src={sidebebarLogo} />
+                    <AvatarFallback></AvatarFallback>
+                  </Avatar>
+                   <div className="flex flex-col place-items-center gap-1">
                     <strong>{(item as Ship).name}</strong><br />
-                    TEU: {(item as Ship).min_teu}
-                  </>
+                    <strong>Year of Built:</strong>{(item as Ship).year_built}
+                    <strong>TEU:</strong> {(item as Ship).min_teu}
+                    <strong>Last Ports:</strong>{(item as Ship).last_ports.join(', ')}
+                  </div>
+                  </div>
                 ) : (
-                  <>
+                  <div className="flex flex-col items-center ">
+                      <Avatar>
+                    <AvatarImage src={portLogo} />
+                    <AvatarFallback></AvatarFallback>
+                  </Avatar>
+                  <div className="flex flex-col items-center">
                     <strong>{(item as Port).name}</strong><br />
-                    Country: {(item as Port).country}
-                  </>
+                    <strong>Country:</strong> {(item as Port).country}<br />
+                    <strong>Berths:</strong> {(item as Port).berths}
+                  </div>
+                  </div>
                 )}
               </Popup>
             </Marker>

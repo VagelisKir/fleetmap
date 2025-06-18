@@ -47,6 +47,9 @@ export function AppSidebar({ onSearch }: AppSidebarProps) {
         setShips(shipsData)
         setPorts([])
         onSearch(shipsData, "ship");
+
+        setMinTeu('')
+        setMaxTeu('')
       } catch (err) {
         console.error("Error fetching ships/data", err);
       }
@@ -61,6 +64,7 @@ export function AppSidebar({ onSearch }: AppSidebarProps) {
         setPorts(portsData)
         setShips([])
         onSearch(portsData, 'port');
+        setPortName('')
       } catch (err) {
         console.error('Error fetching ports/data', err);
       }

@@ -22,7 +22,7 @@ export default function PortCard({ port }: PortCardProps) {
           <Anchor size={18} className='text-red-400' strokeWidth={2.25} />        </h2>
         <div>
           <p><strong>Country:</strong> {port.country}</p>
-          <p><strong>Position:</strong> Lat {port.position.lat}, Lon {port.position.lon}</p>
+          <p><strong>Berths:</strong>{port.berths}</p>
           <p><strong>Max Draught:</strong> {port.max_draught_m} m</p>
           <p><strong>Max Length:</strong> {port.max_length_m} m</p>
           <p><strong>Berths:</strong> {port.berths}</p>

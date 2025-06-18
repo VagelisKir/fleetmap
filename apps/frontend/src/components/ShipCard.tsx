@@ -25,8 +25,8 @@ export default function ShipCard({ ship }: ShipCardProps) {
         <p><strong>TEU:</strong> {ship.min_teu}</p>
         <p><strong>LOA:</strong> {ship.loa_m}</p>
         <p><strong>Shipyard:</strong> {ship.shipyard}</p>
+        <p><strong>Year of Built:</strong> {ship.year_built}</p>
         <p><strong>Ports:</strong> {ship.last_ports.slice(0, 3).join(', ')}</p>
-
         <div className="flex justify-end" />
       </div>
     </div>
