@@ -71,8 +71,8 @@ export function AppSidebar({ onSearch }: AppSidebarProps) {
   return (
     <Sidebar>
       <SidebarHeader>
-        <div className="flex items-center justify-between px-4">
-          <Badge variant="default" className="flex items-center space-x-2">
+        <div className="flex justify-between px-4">
+          <Badge variant="default" className="flex items-center justify-center space-x-2 w-full">
             <img src={logo} alt="Logo" className="w-4 h-4" />
             <span>FleetMap</span>
           </Badge>

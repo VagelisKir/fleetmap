@@ -5,6 +5,7 @@ interface ShipCardProps {
 }
 
 export default function ShipCard({ ship }: ShipCardProps) {
+
   return (
     <div className="w-full bg-white rounded-lg shadow-sm text-sm p-4 items-start">
       <figure className="h-32 flex-shrink-0 overflow-hidden rounded-md">

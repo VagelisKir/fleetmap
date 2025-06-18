@@ -28,34 +28,6 @@
     "loa_m": 294.0
   },
   {
-    "name": "MSC Mirjam",
-    "min_teu": 13449,
-    "year_built": 2009,
-    "shipyard": "CSBC",
-    "last_ports": [
-      "Singapore",
-      "Antwerp",
-      "Valencia",
-      "Dubai",
-      "Los Angeles",
-      "Hamburg",
-      "Shenzhen",
-      "Gioia Tauro",
-      "Tanjung Pelepas",
-      "Jebel Ali"
-    ],
-    "photo_url": "/dataImg/MCSMirjam.png",
-    "draft_m": 9.52,
-    "geared": true,
-    "gear_info": "2x40t cranes",
-    "current_position": {
-      "timestamp": "2025-06-13T10:01:49.508051Z",
-      "lat": 75.596538,
-      "lon": -132.583041
-    },
-    "loa_m": 335.0
-  },
-  {
     "name": "HMM Oslo",
     "min_teu": 20363,
     "year_built": 2013,
@@ -614,34 +586,6 @@
       "lon": 96.228779
     },
     "loa_m": 230.0
-  },
-  {
-    "name": "YM Wellbeing",
-    "min_teu": 10028,
-    "year_built": 2024,
-    "shipyard": "Mitsubishi",
-    "last_ports": [
-      "Gioia Tauro",
-      "Felixstowe",
-      "Long Beach",
-      "Shanghai",
-      "Antwerp",
-      "Jebel Ali",
-      "Rotterdam",
-      "Hamburg",
-      "Shenzhen",
-      "Los Angeles"
-    ],
-    "photo_url": "/dataImg/YMWellbeing.png",
-    "draft_m": 11.47,
-    "geared": false,
-    "gear_info": null,
-    "current_position": {
-      "timestamp": "2025-06-13T10:01:49.513514Z",
-      "lat": 89.02448,
-      "lon": -13.286786
-    },
-    "loa_m": 335.0
   },
   {
     "name": "ONE Columba",
@@ -1286,33 +1230,5 @@
       "lon": -150.992572
     },
     "loa_m": 399.9
-  },
-  {
-    "name": "Maersk Eindhoven",
-    "min_teu": 3238,
-    "year_built": 1992,
-    "shipyard": "GGGI",
-    "last_ports": [
-      "Valencia",
-      "Los Angeles",
-      "Long Beach",
-      "Tanjung Pelepas",
-      "Rotterdam",
-      "Antwerp",
-      "Shanghai",
-      "Felixstowe",
-      "New York",
-      "Jebel Ali"
-    ],
-    "photo_url": "/dataImg/MaerskEindhoven.png",
-    "draft_m": 14.52,
-    "geared": false,
-    "gear_info": null,
-    "current_position": {
-      "timestamp": "2025-06-13T10:01:49.508004Z",
-      "lat": 89.323587,
-      "lon": 117.370266
-    },
-    "loa_m": 230.0
   }
 ]
