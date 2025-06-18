@@ -1,25 +1,37 @@
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, ZoomControl } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
 import { Ship } from "../../../server/src/types/Ship"
 import { Port } from "../../../server/src/types/Port"
 
 
-const iconUrl = "https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon.png";
-const iconRetinaUrl = "https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon-2x.png";
-const shadowUrl = "https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png";
+const shipSvg = `
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" viewBox="0 0 24 24" fill="none" stroke="#f87171" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M22 18H2a4 4 0 0 0 4 4h12a4 4 0 0 0 4-4Z"/>
+  <path d="M21 14 10 2 3 14h18Z"/>
+  <path d="M10 2v16"/>
+</svg>
+`;
 
-const defaultIcon = new L.Icon({
-  iconUrl,
-  iconRetinaUrl,
-  shadowUrl,
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41]
+const portSvg = `
+  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#f87171" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 22V8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/><circle cx="12" cy="5" r="3"/>
+  </svg>
+`;
+
+const shipIcon = L.divIcon({
+  html: `<div style="color: red;">${shipSvg}</div>`,
+  iconSize: [40, 40],
+  className: "",
 });
 
-L.Marker.prototype.options.icon = defaultIcon;
+const portIcon = L.divIcon({
+  html: portSvg,
+  iconSize: [30, 30],
+  iconAnchor: [15, 30],
+  popupAnchor: [0, -30],
+  className: ""
+})
 
 interface ShipMapProps {
   data: Ship[] | Port[]
@@ -28,7 +40,7 @@ interface ShipMapProps {
 
 export default function ShipMap({ data, type }: ShipMapProps) {
   return (
-    <div className="w-full h-full">
+    <div className="absolute top-7 left-0 right-0 bottom-0 z-0">
       <MapContainer
         center={[20, 0]}
         zoom={2}
@@ -56,7 +68,8 @@ export default function ShipMap({ data, type }: ShipMapProps) {
           }
 
           return (
-            <Marker key={index} position={[position.lat, position.lon]}>
+            <Marker key={index} position={[position.lat, position.lon]}
+                    icon={type === "ship" ? shipIcon : portIcon}>
               <Popup>
                 {type === "ship" ? (
                   <>
@@ -73,6 +86,7 @@ export default function ShipMap({ data, type }: ShipMapProps) {
             </Marker>
           );
         })}
+        <ZoomControl position="topright" /> 
       </MapContainer>
     </div>
   );

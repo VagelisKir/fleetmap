@@ -1,6 +1,5 @@
 import type { Port } from '../../../server/src/types/Port'
-
-
+import {Anchor} from "lucide-react"
 interface PortCardProps {
   port: Port
 }
@@ -20,15 +19,7 @@ export default function PortCard({ port }: PortCardProps) {
       <div className="flex-1">
         <h2 className="text-base font-semibold mb-2 flex items-center gap-2">
           {port.name}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-            className="w-4 h-4 text-red-600"
-          >
-            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z" />
-          </svg>
-        </h2>
+          <Anchor size={18} className='text-red-400' strokeWidth={2.25} />        </h2>
         <div>
           <p><strong>Country:</strong> {port.country}</p>
           <p><strong>Position:</strong> Lat {port.position.lat}, Lon {port.position.lon}</p>
