@@ -22,10 +22,6 @@ export default function PortCard({ port }: PortCardProps) {
             <strong>Country:</strong> {port.country}
           </p>
           <p>
-            <strong>Berths:</strong>
-            {port.berths}
-          </p>
-          <p>
             <strong>Max Draught:</strong> {port.max_draught_m} m
           </p>
           <p>
