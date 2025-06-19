@@ -1,13 +1,10 @@
 import fleetMapLogo from './assets/fleetmaplogo.png'
 import bgImg from './assets/bgimg3.jpg'
-import { LoginForm } from "@/components/login-form"
-
-
+import { LoginForm } from '@/components/login-form'
 
 export default function LoginPage() {
-
   return (
-        <div
+    <div
       className="min-h-screen flex items-center justify-center bg-cover bg-center"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
@@ -28,18 +25,17 @@ export default function LoginPage() {
 // import bgImg from './assets/bgimg3.jpg'
 // import fleetMapLogo from './assets/fleetmaplogo.png'
 
-
 // const LoginPage = () => {
-  // const [username, setUsername] = useState("");
-  // const [password, setPassword] = useState("");
+// const [username, setUsername] = useState("");
+// const [password, setPassword] = useState("");
 //   const navigate = useNavigate();
 
-  // const handleSignIn = (e: React.FormEvent) => {
-  //   e.preventDefault();
-  //   if (username && password) {
-  //     navigate("/home");
-  //   }
-  // };
+// const handleSignIn = (e: React.FormEvent) => {
+//   e.preventDefault();
+//   if (username && password) {
+//     navigate("/home");
+//   }
+// };
 
 //   return (
 //     <div
@@ -65,11 +61,11 @@ export default function LoginPage() {
 //           onChange={(e) => setUsername(e.target.value)}
 //         />
 //         <input
-          // className="w-full mb-4 p-2 border rounded"
-          // type="password"
-          // placeholder="Password"
-          // value={password}
-          // onChange={(e) => setPassword(e.target.value)}
+// className="w-full mb-4 p-2 border rounded"
+// type="password"
+// placeholder="Password"
+// value={password}
+// onChange={(e) => setPassword(e.target.value)}
 //         />
 //         <button
 //           className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600 mb-2"

@@ -1,38 +1,28 @@
-import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { cn } from '@/lib/utils'
+import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Input } from '@/components/ui/input'
+import { Label } from '@/components/ui/label'
+import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
-export function LoginForm({
-  className,
-  ...props
-  
-}: React.ComponentPropsWithoutRef<"div">) {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-const navigate = useNavigate()
+export function LoginForm({ className, ...props }: React.ComponentPropsWithoutRef<'div'>) {
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const navigate = useNavigate()
 
   const handleSignIn = (e: React.FormEvent) => {
-    e.preventDefault();
+    e.preventDefault()
     if (email && password) {
-      navigate("/home");
+      navigate('/home')
     }
-  };
+  }
 
   return (
-    <div className={cn("flex flex-col gap-6", className)} {...props}>
+    <div className={cn('flex flex-col gap-6', className)} {...props}>
       <Card>
         <CardHeader>
           <CardTitle className="text-2xl">Login</CardTitle>
-
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSignIn}>
@@ -44,8 +34,8 @@ const navigate = useNavigate()
                   type="email"
                   placeholder="m@example.com"
                   required
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
+                  value={email}
+                  onChange={e => setEmail(e.target.value)}
                 />
               </div>
               <div className="grid gap-2">
@@ -58,12 +48,14 @@ const navigate = useNavigate()
                     Forgot your password?
                   </a>
                 </div>
-                <Input id="password" 
-                type="password" required 
-                placeholder="Password"
-                value={password}
-                 onChange={(e) => setPassword(e.target.value)}
-                 />
+                <Input
+                  id="password"
+                  type="password"
+                  required
+                  placeholder="Password"
+                  value={password}
+                  onChange={e => setPassword(e.target.value)}
+                />
               </div>
               <Button type="submit" className="w-full">
                 Login
@@ -73,7 +65,7 @@ const navigate = useNavigate()
               </Button>
             </div>
             <div className="mt-4 text-center text-sm">
-              Don&apos;t have an account?{" "}
+              Don&apos;t have an account?{' '}
               <a href="#" className="underline underline-offset-4">
                 Sign up
               </a>
