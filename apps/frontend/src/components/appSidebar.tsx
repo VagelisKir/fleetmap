@@ -4,7 +4,6 @@ import {
   SidebarFooter,
   SidebarGroup,
   SidebarHeader,
-  SidebarTrigger,
 } from '@/components/ui/sidebar'
 import { Label } from '@/components/ui/label'
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
@@ -31,33 +30,47 @@ export function AppSidebar({ onSearch }: AppSidebarProps) {
   const [portName, setPortName] = useState('')
   const [ships, setShips] = useState<Ship[]>([])
   const [ports, setPorts] = useState<Port[]>([])
+  const [errorMessage, setErrorMessage] = useState('')
+  const [isLoading, setIsLoading] = useState(false)
 
   async function handleSubmit() {
+    setErrorMessage('')
+
     if (searchType === 'teu') {
       if (minTeu === '' || maxTeu === '') {
-        console.log('Missing inputs!')
+        setErrorMessage('Please enter both Min and Max TEU values.')
         return
       }
 
       const min = Number(minTeu)
       const max = Number(maxTeu)
+
+      if (isNaN(min) || isNaN(max)) {
+        setErrorMessage('TEU values must be valid numbers.')
+        return
+      }
+
+      setIsLoading(true)
       try {
         const shipsData = await fetchShipsByTeu(min, max)
         setShips(shipsData)
         setPorts([])
         onSearch(shipsData, 'ship')
-
         setMinTeu('')
         setMaxTeu('')
       } catch (err) {
         console.error('Error fetching ships/data', err)
+        setErrorMessage('Something went wrong while fetching ships.')
+      } finally {
+        setIsLoading(false)
       }
     } else if (searchType === 'port') {
       if (portName.trim() === '') {
-        console.log('Missing port name!')
+        setErrorMessage('Please enter a port name.')
         return
       }
 
+      setIsLoading(true)
       try {
         const portsData = await fetchPortsByName(portName)
         setPorts(portsData)
@@ -66,6 +79,9 @@ export function AppSidebar({ onSearch }: AppSidebarProps) {
         setPortName('')
       } catch (err) {
         console.error('Error fetching ports/data', err)
+        setErrorMessage('Something went wrong while fetching ports.')
+      } finally {
+        setIsLoading(false)
       }
     }
   }
@@ -80,6 +96,7 @@ export function AppSidebar({ onSearch }: AppSidebarProps) {
           </Badge>
         </div>
       </SidebarHeader>
+
       <SidebarContent>
         <SidebarGroup>
           <RadioGroup defaultValue="teu" onValueChange={value => setSearchType(value)}>
@@ -94,42 +111,64 @@ export function AppSidebar({ onSearch }: AppSidebarProps) {
               </Label>
             </div>
           </RadioGroup>
+
           <div className="py-2">
             {searchType === 'teu' ? (
               <>
                 <Input
                   placeholder="Min TEU"
+                  id="minTeu"
                   type="number"
                   min={0}
                   value={minTeu}
-                  onChange={e => setMinTeu(e.target.value)}
+                  onChange={e => {
+                    setMinTeu(e.target.value)
+                    setErrorMessage('')
+                  }}
                 />
                 <Input
                   placeholder="Max TEU"
+                  id="maxTeu"
                   type="number"
                   min={0}
                   max={24000}
                   value={maxTeu}
-                  onChange={e => setMaxTeu(e.target.value)}
+                  onChange={e => {
+                    setMaxTeu(e.target.value)
+                    setErrorMessage('')
+                  }}
                 />
               </>
             ) : (
               <Input
                 placeholder="Enter port name"
+                id="portName"
                 value={portName}
-                onChange={e => setPortName(e.target.value)}
+                onChange={e => {
+                  setPortName(e.target.value)
+                  setErrorMessage('')
+                }}
               />
             )}
+            {errorMessage && <p className="text-red-500 text-sm mt-2">{errorMessage}</p>}
           </div>
-          <Button onClick={handleSubmit}>Search</Button>
+
+          <Button onClick={handleSubmit} disabled={isLoading}>
+            {isLoading ? 'Searching...' : 'Search'}
+          </Button>
         </SidebarGroup>
+
         <SidebarGroup />
+
         <div className="flex flex-col gap-2 p-2">
-          {searchType === 'teu'
+          {searchType === 'teu' && Array.isArray(ships)
             ? ships.map(ship => <ShipCard key={ship.name} ship={ship} />)
-            : ports.map(port => <PortCard key={port.name} port={port} />)}
+            : Array.isArray(ports)
+              ? ports.map(port => <PortCard key={port.name} port={port} />)
+              : null}
         </div>
       </SidebarContent>
+
       <SidebarFooter />
     </Sidebar>
   )

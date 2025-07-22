@@ -16,9 +16,9 @@ const shipSvg = `
 `
 
 const portSvg = `
-  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#f87171" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M12 22V8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/><circle cx="12" cy="5" r="3"/>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#f87171" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 22V8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/><circle cx="12" cy="5" r="3"/>
+</svg>
 `
 
 const shipIcon = L.divIcon({
@@ -36,11 +36,16 @@ const portIcon = L.divIcon({
 })
 
 interface ShipMapProps {
-  data: Ship[] | Port[]
+  data: Ship[] | Port[] | undefined
   type: 'ship' | 'port'
 }
 
 export default function ShipMap({ data, type }: ShipMapProps) {
+  if (!Array.isArray(data)) {
+    console.warn('Invalid data passed to ShipMap:', data)
+    return null
+  }
+
   return (
     <div className="absolute top-7 left-0 right-0 bottom-0 z-0">
       <MapContainer
@@ -80,23 +85,26 @@ export default function ShipMap({ data, type }: ShipMapProps) {
                   <div className="flex flex-col items-center text-center">
                     <Avatar>
                       <AvatarImage src={sidebebarLogo} />
-                      <AvatarFallback></AvatarFallback>
+                      <AvatarFallback />
                     </Avatar>
                     <div className="flex flex-col place-items-center gap-1">
                       <strong>{(item as Ship).name}</strong>
                       <br />
-                      <strong>Year of Built:</strong>
-                      {(item as Ship).year_built}
+                      <strong>Year of Built:</strong> {(item as Ship).year_built}
+                      <br />
                       <strong>TEU:</strong> {(item as Ship).min_teu}
-                      <strong>Last Ports:</strong>
-                      {(item as Ship).last_ports.join(', ')}
+                      <br />
+                      <strong>Last Ports:</strong>{' '}
+                      {Array.isArray((item as Ship).last_ports)
+                        ? (item as Ship).last_ports.join(', ')
+                        : 'N/A'}
                     </div>
                   </div>
                 ) : (
-                  <div className="flex flex-col items-center ">
+                  <div className="flex flex-col items-center">
                     <Avatar>
                       <AvatarImage src={portLogo} />
-                      <AvatarFallback></AvatarFallback>
+                      <AvatarFallback />
                     </Avatar>
                     <div className="flex flex-col items-center">
                       <strong>{(item as Port).name}</strong>
